@@ -7,34 +7,46 @@
       { "id": 1, "src": "/uploads/projects/chessgame/1.png", "alt": "Game Board" },
       { "id": 2, "src": "/uploads/projects/chessgame/2.png", "alt": "Dashboard" }
     ],
-    "description":
-      "Real-time multiplayer chess application with live gameplay, spectators, and server-side move validation using WebSockets.",
+    "about": [
+      "Chess Realtime Game is a real-time multiplayer chess web application that allows two players to compete live while others can join as spectators.",
+      "The platform supports drag-and-drop gameplay, automatic board flipping for Black, and instant synchronization of moves across all connected clients.",
+      "Built using Node.js, Express.js, Socket.io, EJS, and chess.js, the application ensures server-side move validation and consistent game state management.",
+      "The project focuses on delivering a smooth, interactive chess experience using WebSockets for low-latency communication and real-time updates."
+    ],
+   "description": "Real-time multiplayer chess web app built with Node.js, Express, Socket.io, EJS, and chess.js. Supports live gameplay between two players (White vs Black), spectator mode, drag-and-drop moves, server-side move validation, and instant board synchronization using WebSockets.",
     "tech": ["Node.js", "Express.js", "Socket.io", "EJS", "TailwindCSS"],
     "github": "https://github.com/Vishesh9310/chess-realtime-game",
-    "live": "https://github.com/Vishesh9310/chess-realtime-game"
+    "live": "",
+    "date": "2025-12-21",
+    "status": "Full-Stack"
   },
-
   {
     "id": 9,
     "title": "Growth Board",
-    "img": { "id": 101, "src": "/uploads/projects/growthboard/dashboard.png", "alt": "Main Image" },
+    "img": { "id": 101, "src": "/uploads/projects/growthboard/main.png", "alt": "Main Image" },
     "imageList": [
       { "id": 1, "src": "/uploads/projects/growthboard/achievement.png", "alt": "Home Page" },
       { "id": 2, "src": "/uploads/projects/growthboard/dashboard.png", "alt": "Login Page" },
-      { "id": 1, "src": "/uploads/projects/growthboard/dashboard2.png", "alt": "Home Page" },
-      { "id": 2, "src": "/uploads/projects/growthboard/login.png", "alt": "Login Page" },
-      { "id": 1, "src": "/uploads/projects/growthboard/main.png", "alt": "Home Page" },
-      { "id": 2, "src": "/uploads/projects/growthboard/profile.png", "alt": "Login Page" },
-      { "id": 1, "src": "/uploads/projects/growthboard/projects.png", "alt": "Home Page" },
-      { "id": 2, "src": "/uploads/projects/growthboard/skills.png", "alt": "Login Page" }
+      { "id": 3, "src": "/uploads/projects/growthboard/dashboard2.png", "alt": "Home Page" },
+      { "id": 4, "src": "/uploads/projects/growthboard/login.png", "alt": "Login Page" },
+      { "id": 5, "src": "/uploads/projects/growthboard/main.png", "alt": "Home Page" },
+      { "id": 6, "src": "/uploads/projects/growthboard/profile.png", "alt": "Login Page" },
+      { "id": 7, "src": "/uploads/projects/growthboard/projects.png", "alt": "Home Page" },
+      { "id": 8, "src": "/uploads/projects/growthboard/skills.png", "alt": "Login Page" }
     ],
-    "description":
-      "MERN-based personal growth tracker to manage skills, goals, achievements, and projects in one dashboard.",
-    "tech": ["React", "Node.js", "MongoDB", "TypeScript", "TailwindCSS"],
+    "about": [
+      "GrowthBoard is designed as a centralized growth-tracking platform that enables students and professionals to organize their learning journey effectively.",
+      "By offering modules for skill management, goal setting, achievement tracking, and project monitoring, the system replaces traditional manual methods like notebooks and spreadsheets.",
+      "Built using MongoDB, Express.js, React, and Node.js, it provides real-time progress visualization through interactive dashboards while ensuring secure access with JWT authentication.",
+      "The application aims to improve productivity, motivation, and personal development by offering an all-in-one digital growth assistant."
+    ],
+    "description":"GrowthBoard is a MERN-based web application that helps users track their skills, goals, achievements, and projects in a single dashboard. It provides a structured and visual way to monitor personal and career growth.",
+    "tech": ["React", "Node.js","Express.js", "MongoDB", "TypeScript", "TailwindCSS"],
     "github": "https://github.com/Vishesh9310/GrowthBoardFrontend",
-    "live": "https://growthboard.netlify.app/"
+    "live": "https://growthboard.netlify.app/",
+    "date": "2025-10-25",
+    "status": "Full-Stack"
   },
-
   {
     "id": 8,
     "title": "Coos Library",
@@ -46,61 +58,96 @@
       { "id": 4, "src": "/uploads/projects/cooslibrary/loginpage.png", "alt": "Help" },
       { "id": 5, "src": "/uploads/projects/cooslibrary/signuppage.png", "alt": "Home" }
     ],
+    "about": [
+      "Discover, Read, Imagine.",
+      "COOS-LIBRARY is a modern, full-featured digital library platform built to redefine how readers explore and enjoy books online. Designed with a mission to make reading more accessible, interactive, and engaging, this platform offers an immersive literary experience with powerful discovery tools, progress tracking, and community-driven features.",
+      "The platform allows users to read anywhere, track their progress, highlight favorite sections, and connect with a vibrant community through reviews and recommendations. It integrates gamified reading management with daily and weekly progress metrics and a unique ranking system (e.g., “Current Rank: Platinum”) that encourages consistent reading habits.",
+      "From a technical standpoint, COOS-LIBRARY demonstrates expertise in Full Stack Development, featuring a responsive React frontend, a robust Node.js + Express backend, and MongoDB Atlas for database management. The app is styled using Tailwind CSS and deployed seamlessly on Vercel (frontend) and Render (backend).",
+      "This project showcases not just technical proficiency, but also a deep focus on user experience (UX), data visualization, and reader engagement, delivering a smooth, scalable, and delightful journey for book lovers worldwide."
+    ],
     "description":
       "Full-stack digital library platform with authentication, reading progress tracking, and modern UI.",
     "tech": ["React", "Node.js", "Express", "MongoDB", "TailwindCSS"],
     "github": "https://github.com/Vishesh9310/CoosLibraryFrontend",
-    "live": "https://github.com/Vishesh9310/CoosLibraryFrontend"
+    "live": "",
+    "date": "2025-10-25",
+    "status": "Full-Stack"
   },
-
   {
     "id": 7,
     "title": "Notes App (EJS)",
     "img": { "id": 101, "src": "/uploads/projects/image.png", "alt": "Main Image" },
     "imageList": [],
+    "about": [
+      "NotesApp is a CRUD-based web application designed to help users manage notes using a simple and intuitive interface.",
+      "Built with Node.js, Express.js, EJS, and MongoDB (via Mongoose), the project focuses on server-side rendering and database integration.",
+      "The application uses structured Express routes and Mongoose models to define and manage note data efficiently.",
+      "This project serves as a practical learning tool for understanding full-stack development concepts such as templating, routing, and persistent data storage."
+    ],
     "description":
       "Server-rendered notes application supporting CRUD operations using Express, EJS, and MongoDB.",
     "tech": ["Node.js", "Express.js", "EJS", "MongoDB"],
     "github": "https://github.com/Vishesh9310/NotesApp-ejs-node-express-mongoose-",
-    "live": "https://github.com/Vishesh9310/NotesApp-ejs-node-express-mongoose-"
+    "live": "",
+    "date": "2025-08-24",
+    "status": "Full-Stack"
   },
-
   {
     "id": 6,
     "title": "Emart",
     "img": { "id": 101, "src": "/uploads/projects/image.png", "alt": "Main Image" },
     "imageList": [],
-    "description":
-      "Role-based e-commerce web app with authentication, admin product control, and session handling.",
+    "about": [
+      "E-Mart is a role-based e-commerce web application that allows users to browse products while granting administrative control exclusively to the admin.",
+      "Built using Node.js, Express.js, MongoDB, and EJS templates, the project demonstrates full-stack development with server-side rendering.",
+      "User authentication, session management, and access control are implemented using express-session, cookies, and flash messages.",
+      "The project is designed as a scalable foundation for advanced e-commerce features such as shopping carts, payment integration, and order management."
+    ],
+    "description":"E-Mart is a full-stack e-commerce web application built with Node.js, Express.js, MongoDB, and EJS, featuring user authentication, role-based access control, and admin-managed product handling. It uses session-based authentication with flash messages and provides a scalable foundation for advanced e-commerce features.",
     "tech": ["Node.js", "Express.js", "MongoDB", "EJS", "CSS"],
     "github": "https://github.com/Vishesh9310/Emart",
-    "live": "https://github.com/Vishesh9310/Emart"
+    "live": "",
+    "date": "2025-08-16",
+    "status": "Full-Stack"
   },
-
   {
     "id": 5,
     "title": "RESTful Bookstore API",
     "img": { "id": 101, "src": "/uploads/projects/image.png", "alt": "Main Image" },
     "imageList": [],
-    "description":
-      "Spring Boot REST API for managing books and authors with CRUD, pagination, and Swagger docs.",
+    "about": [
+      "The RESTful Bookstore API is a backend application designed to manage books and authors in a scalable and structured manner.",
+      "It uses Spring Boot with Spring Data JPA and an H2 in-memory database to handle persistence efficiently.",
+      "The project exposes REST endpoints via @RestController and supports CRUD operations for both Book and Author entities.",
+      "Advanced features such as filtering, pagination, and sorting are implemented to handle large datasets effectively.",
+      "API testing is performed using Postman, while Swagger UI provides interactive documentation for easy exploration and integration.",
+      "This project serves as a practical example of building professional, real-world RESTful services using Java and Spring Boot."
+    ],
+    "description": "A RESTful Bookstore API built with Java and Spring Boot that demonstrates CRUD operations, filtering, pagination, sorting, and API documentation using modern backend best practices.",
     "tech": ["Java", "Spring Boot", "MongoDB"],
     "github": "https://github.com/Vishesh9310/RESTful-Bookstore-API-Java",
-    "live": "https://github.com/Vishesh9310/RESTful-Bookstore-API-Java"
+    "live": "",
+    "date": "2025-07-15",
+    "status": "Backend"
   },
-
   {
     "id": 4,
     "title": "Library Management System",
     "img": { "id": 101, "src": "/uploads/projects/image.png", "alt": "Main Image" },
     "imageList": [],
-    "description":
-      "Java-based command-line application demonstrating core OOP concepts for library operations.",
+    "about": [
+      "The Library Management System is a terminal-based Java application designed to showcase practical implementation of OOP concepts like classes, objects, and methods.",
+      "The project includes a Book class for handling book details, a User class for managing library members, and a central Library class that controls the core system logic.",
+      "It provides a menu-driven interface that allows users to interact with the system easily via command-line options.",
+      "By simulating real-world library workflows, the project strengthens programming fundamentals, problem-solving skills, and basic system design using Java."
+    ],
+    "description": "Java-based command-line application demonstrating core OOP concepts for library operations.",
     "tech": ["Java"],
     "github": "https://github.com/Vishesh9310/Library-Management-System-Using-OOP-",
-    "live": "https://github.com/Vishesh9310/Library-Management-System-Using-OOP-"
+    "live": "",
+    "date": "2025-06-26",
+    "status": "CLI based"
   },
-
   {
     "id": 3,
     "title": "KeepNotes",
@@ -110,13 +157,15 @@
       { "id": 2, "src": "/uploads/projects/keepnotes/Pastepage.png", "alt": "View Note" },
       { "id": 3, "src": "/uploads/projects/keepnotes/viewpage.png", "alt": "View Note" }
     ],
+    "about":"",
     "description":
       "Simple React note-saving application with Redux and local storage.",
-    "tech": ["React", "Redux", "CSS"],
+    "tech": ["React", "Redux", "CSS", "LocalStorage"],
     "github": "https://github.com/Vishesh9310/KeepNotes",
-    "live": "https://github.com/Vishesh9310/KeepNotes"
+    "live": "",
+    "date": "2025-04-19",
+    "status": "Frontend"
   },
-
   {
     "id": 2,
     "title": "Sarthi Hospital",
@@ -130,22 +179,30 @@
       { "id": 1, "src": "/uploads/projects/sarthihospital/login.png", "alt": "About Page" },
       { "id": 2, "src": "/uploads/projects/sarthihospital/signup.png", "alt": "Contact Page" }
     ],
-    "description":
-      "Hospital management frontend with appointment scheduling and patient UI.",
+    "about": "A full-fledged hospital management frontend built using React, offering appointment scheduling, doctor management, and patient records UI.",
+    "description": "A full-fledged hospital management frontend built using React, offering appointment scheduling, doctor management, and patient records UI.",
     "tech": ["React", "TailwindCSS"],
     "github": "https://github.com/Vishesh9310/Sarthi2.0",
-    "live": "https://github.com/Vishesh9310/Sarthi2.0"
+    "live": "",
+    "date": "2025-04-04",
+    "status": "Frontend"
   },
-
   {
     "id": 1,
     "title": "Calculator",
-    "img": { "id": 101, "src": "/uploads/projects/image.png", "alt": "Main Image" },
+    "img": { "id": 101, "src": "/uploads/projects/calculator/image.png", "alt": "Main Image" },
     "imageList": [],
-    "description":
-      "Responsive calculator built using HTML, CSS, and JavaScript with full arithmetic support.",
+    "about": [
+      "The Basic Calculator Web App is a lightweight and responsive application designed to perform essential arithmetic operations including addition, subtraction, multiplication, division, and percentage calculations.",
+      "Built using pure HTML, CSS, and JavaScript, the project emphasizes clean structure, interactive styling, and efficient client-side logic without external dependencies.",
+      "The interface is crafted using CSS Grid and Flexbox to ensure proper alignment, responsiveness, and a smooth user experience across different screen sizes.",
+      "This project serves as a strong foundational exercise for practicing DOM manipulation, event handling, and real-world frontend UI development."
+    ],
+    "description":"A fully functional basic calculator web application built using vanilla JavaScript, HTML5, and CSS3. It supports decimal inputs, AC (All Clear), DEL (Delete), and essential arithmetic operations, with smooth hover effects and a responsive layout powered by CSS Grid and Flexbox. This project demonstrates core frontend concepts such as DOM manipulation, event handling, and interactive UI design without relying on external libraries.",
     "tech": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/Vishesh9310/CodeAlpha_Calculator",
-    "live": "https://github.com/Vishesh9310/CodeAlpha_Calculator"
+    "live": "https://vishesh9310.github.io/Basic_Calculator/",
+    "date": "2024-07-20",
+    "status": "Frontend"
   }
 ]
