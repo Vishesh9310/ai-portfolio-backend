@@ -1,0 +1,79 @@
+[
+    {
+    "id": 6,
+    "title": "Notes App (EJS)",
+    "img": { "id": 101, "src": "/uploads/projects/image.png", "alt": "Main Image" },
+    "imageList": [],
+    "about": [
+      "NotesApp is a CRUD-based web application designed to help users manage notes using a simple and intuitive interface.",
+      "Built with Node.js, Express.js, EJS, and MongoDB (via Mongoose), the project focuses on server-side rendering and database integration.",
+      "The application uses structured Express routes and Mongoose models to define and manage note data efficiently.",
+      "This project serves as a practical learning tool for understanding full-stack development concepts such as templating, routing, and persistent data storage."
+    ],
+    "description":
+      "Server-rendered notes application supporting CRUD operations using Express, EJS, and MongoDB.",
+    "tech": ["Node.js", "Express.js", "EJS", "MongoDB"],
+    "github": "https://github.com/Vishesh9310/NotesApp-ejs-node-express-mongoose-",
+    "live": "",
+    "date": "2025-08-24",
+    "status": "Full-Stack"
+  },
+  {
+    "id": 5,
+    "title": "Emart",
+    "img": { "id": 101, "src": "/uploads/projects/image.png", "alt": "Main Image" },
+    "imageList": [],
+    "about": [
+      "E-Mart is a role-based e-commerce web application that allows users to browse products while granting administrative control exclusively to the admin.",
+      "Built using Node.js, Express.js, MongoDB, and EJS templates, the project demonstrates full-stack development with server-side rendering.",
+      "User authentication, session management, and access control are implemented using express-session, cookies, and flash messages.",
+      "The project is designed as a scalable foundation for advanced e-commerce features such as shopping carts, payment integration, and order management."
+    ],
+    "description":"E-Mart is a full-stack e-commerce web application built with Node.js, Express.js, MongoDB, and EJS, featuring user authentication, role-based access control, and admin-managed product handling. It uses session-based authentication with flash messages and provides a scalable foundation for advanced e-commerce features.",
+    "tech": ["Node.js", "Express.js", "MongoDB", "EJS", "CSS"],
+    "github": "https://github.com/Vishesh9310/Emart",
+    "live": "",
+    "date": "2025-08-16",
+    "status": "Full-Stack"
+  },
+  
+  {
+    "id": 3,
+    "title": "KeepNotes",
+    "img": { "id": 101, "src": "/uploads/projects/keepnotes/Homepage.png", "alt": "Main Image" },
+    "imageList": [
+      { "id": 1, "src": "/uploads/projects/keepnotes/Homepage.png", "alt": "Notes List" },
+      { "id": 2, "src": "/uploads/projects/keepnotes/Pastepage.png", "alt": "View Note" },
+      { "id": 3, "src": "/uploads/projects/keepnotes/viewpage.png", "alt": "View Note" }
+    ],
+    "about":"",
+    "description":
+      "Simple React note-saving application with Redux and local storage.",
+    "tech": ["React", "Redux", "CSS", "LocalStorage"],
+    "github": "https://github.com/Vishesh9310/KeepNotes",
+    "live": "",
+    "date": "2025-04-19",
+    "status": "Frontend"
+  },
+  {
+    "id": 2,
+    "title": "Sarthi Hospital",
+    "img": { "id": 101, "src": "/uploads/projects/sarthihospital/home.png", "alt": "Main Image" },
+    "imageList": [
+      { "id": 1, "src": "/uploads/projects/sarthihospital/about.png", "alt": "About Page" },
+      { "id": 2, "src": "/uploads/projects/sarthihospital/contactus.png", "alt": "Contact Page" },
+      { "id": 1, "src": "/uploads/projects/sarthihospital/DashboardHome.png", "alt": "About Page" },
+      { "id": 2, "src": "/uploads/projects/sarthihospital/gallery.png", "alt": "Contact Page" },
+      { "id": 1, "src": "/uploads/projects/sarthihospital/home.png", "alt": "About Page" },
+      { "id": 1, "src": "/uploads/projects/sarthihospital/login.png", "alt": "About Page" },
+      { "id": 2, "src": "/uploads/projects/sarthihospital/signup.png", "alt": "Contact Page" }
+    ],
+    "about": "A full-fledged hospital management frontend built using React, offering appointment scheduling, doctor management, and patient records UI.",
+    "description": "A full-fledged hospital management frontend built using React, offering appointment scheduling, doctor management, and patient records UI.",
+    "tech": ["React", "TailwindCSS"],
+    "github": "https://github.com/Vishesh9310/Sarthi2.0",
+    "live": "",
+    "date": "2025-04-04",
+    "status": "Frontend"
+  }
+]

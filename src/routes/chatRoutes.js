@@ -1,8 +1,8 @@
-const express = require("express");
-const { chatWithAI } = require("../controllers/chatController");
+// const express = require("express");
+// const { chatWithAI } = require("../controllers/chatController");
 
-const router = express.Router();
+// const router = express.Router();
 
-router.post("/", chatWithAI);
+// router.post("/", chatWithAI);
 
-module.exports = router;
+// module.exports = router;

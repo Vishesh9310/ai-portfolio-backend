@@ -1,0 +1,76 @@
+[
+  {
+    "id": 10,
+    "title": "Chess Realtime Game",
+    "img": { "id": 101, "src": "/uploads/projects/chessgame/1.png", "alt": "Main Image" },
+    "imageList": [
+      { "id": 1, "src": "/uploads/projects/chessgame/1.png", "alt": "Game Board" },
+      { "id": 2, "src": "/uploads/projects/chessgame/2.png", "alt": "Dashboard" }
+    ],
+    "about": [
+      "Chess Realtime Game is a real-time multiplayer chess web application that allows two players to compete live while others can join as spectators.",
+      "The platform supports drag-and-drop gameplay, automatic board flipping for Black, and instant synchronization of moves across all connected clients.",
+      "Built using Node.js, Express.js, Socket.io, EJS, and chess.js, the application ensures server-side move validation and consistent game state management.",
+      "The project focuses on delivering a smooth, interactive chess experience using WebSockets for low-latency communication and real-time updates."
+    ],
+   "description": "Real-time multiplayer chess web app built with Node.js, Express, Socket.io, EJS, and chess.js. Supports live gameplay between two players (White vs Black), spectator mode, drag-and-drop moves, server-side move validation, and instant board synchronization using WebSockets.",
+    "tech": ["Node.js", "Express.js", "Socket.io", "EJS", "TailwindCSS"],
+    "github": "https://github.com/Vishesh9310/chess-realtime-game",
+    "live": "",
+    "date": "2025-12-21",
+    "status": "F`ull-Stack"
+  },
+  {
+    "id": 9,
+    "title": "Growth Board",
+    "img": { "id": 101, "src": "/uploads/projects/growthboard/main.png", "alt": "Main Image" },
+    "imageList": [
+      { "id": 1, "src": "/uploads/projects/growthboard/achievement.png", "alt": "Home Page" },
+      { "id": 2, "src": "/uploads/projects/growthboard/dashboard.png", "alt": "Login Page" },
+      { "id": 3, "src": "/uploads/projects/growthboard/dashboard2.png", "alt": "Home Page" },
+      { "id": 4, "src": "/uploads/projects/growthboard/login.png", "alt": "Login Page" },
+      { "id": 5, "src": "/uploads/projects/growthboard/main.png", "alt": "Home Page" },
+      { "id": 6, "src": "/uploads/projects/growthboard/profile.png", "alt": "Login Page" },
+      { "id": 7, "src": "/uploads/projects/growthboard/projects.png", "alt": "Home Page" },
+      { "id": 8, "src": "/uploads/projects/growthboard/skills.png", "alt": "Login Page" }
+    ],
+    "about": [
+      "GrowthBoard is designed as a centralized growth-tracking platform that enables students and professionals to organize their learning journey effectively.",
+      "By offering modules for skill management, goal setting, achievement tracking, and project monitoring, the system replaces traditional manual methods like notebooks and spreadsheets.",
+      "Built using MongoDB, Express.js, React, and Node.js, it provides real-time progress visualization through interactive dashboards while ensuring secure access with JWT authentication.",
+      "The application aims to improve productivity, motivation, and personal development by offering an all-in-one digital growth assistant."
+    ],
+    "description":"GrowthBoard is a MERN-based web application that helps users track their skills, goals, achievements, and projects in a single dashboard. It provides a structured and visual way to monitor personal and career growth.",
+    "tech": ["React", "Node.js","Express.js", "MongoDB", "TypeScript", "TailwindCSS"],
+    "github": "https://github.com/Vishesh9310/GrowthBoardFrontend",
+    "live": "https://growthboard.netlify.app/",
+    "date": "2025-10-25",
+    "status": "Full-Stack"
+  },
+  {
+    "id": 8,
+    "title": "Coos Library",
+    "img": { "id": 101, "src": "/uploads/projects/cooslibrary/homepage.png", "alt": "Main Image" },
+    "imageList": [
+      { "id": 1, "src": "/uploads/projects/cooslibrary/aboutpage.png", "alt": "About" },
+      { "id": 2, "src": "/uploads/projects/cooslibrary/helppage.png", "alt": "Help" },
+      { "id": 3, "src": "/uploads/projects/cooslibrary/homepage.png", "alt": "Home" },
+      { "id": 4, "src": "/uploads/projects/cooslibrary/loginpage.png", "alt": "Help" },
+      { "id": 5, "src": "/uploads/projects/cooslibrary/signuppage.png", "alt": "Home" }
+    ],
+    "about": [
+      "Discover, Read, Imagine.",
+      "COOS-LIBRARY is a modern, full-featured digital library platform built to redefine how readers explore and enjoy books online. Designed with a mission to make reading more accessible, interactive, and engaging, this platform offers an immersive literary experience with powerful discovery tools, progress tracking, and community-driven features.",
+      "The platform allows users to read anywhere, track their progress, highlight favorite sections, and connect with a vibrant community through reviews and recommendations. It integrates gamified reading management with daily and weekly progress metrics and a unique ranking system (e.g., “Current Rank: Platinum”) that encourages consistent reading habits.",
+      "From a technical standpoint, COOS-LIBRARY demonstrates expertise in Full Stack Development, featuring a responsive React frontend, a robust Node.js + Express backend, and MongoDB Atlas for database management. The app is styled using Tailwind CSS and deployed seamlessly on Vercel (frontend) and Render (backend).",
+      "This project showcases not just technical proficiency, but also a deep focus on user experience (UX), data visualization, and reader engagement, delivering a smooth, scalable, and delightful journey for book lovers worldwide."
+    ],
+    "description":
+      "Full-stack digital library platform with authentication, reading progress tracking, and modern UI.",
+    "tech": ["React", "Node.js", "Express", "MongoDB", "TailwindCSS"],
+    "github": "https://github.com/Vishesh9310/CoosLibraryFrontend",
+    "live": "",
+    "date": "2025-10-25",
+    "status": "Full-Stack"
+  }
+]
